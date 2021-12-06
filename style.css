@@ -1,15 +1,18 @@
 :root{
-  --primary:rgb(125, 125, 255);
+   --primary: tomato;
+   --bg-color:lightgrey;
+   --main-padding: .5rem;
 }
 body{
   margin: 0;
-  background-color: lightgrey;
+  background-color: var(--bg-color);
 }
 a{
   color: var(--primary);
 }
 input{
-  padding: 1rem;
+  padding: var(--main-padding0
+  );
   border-radius: 1rem;
   border: 2px solid var(--primary);
 }
@@ -17,4 +20,8 @@ button{
   padding: 1rem;
   border-radius: 1rem;
   background-color: var(--primary);
+}
+.exceptionally-blue{
+  --primary: blue;
+  --main-padding: 
 }
